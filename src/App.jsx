@@ -1,5 +1,12 @@
+import Navbar from "./components/Navbar";
+
 function App() {
-  return <>Hello World</>;
+  return (
+    <div>
+      <Navbar />
+      Hello World
+    </div>
+  );
 }
 
 export default App;
